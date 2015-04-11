@@ -1,0 +1,30 @@
+#sidebar {
+  width: 30%;
+  float: left;
+}
+
+#debug {
+  background-color: #dadada;
+  height: 100px;
+  overflow: scroll;
+}
+
+#debug .debug {
+  color: red;
+  font-size: 0.5em;
+}
+
+#main {
+  width: 68%;
+  float: right;
+  background-color: #eaeaea;
+}
+#main #messages {
+  overflow: scroll;
+  color: blue;
+  height: 180px;
+}
+#main #usersList {
+  width: 15%;
+  float: right;
+}

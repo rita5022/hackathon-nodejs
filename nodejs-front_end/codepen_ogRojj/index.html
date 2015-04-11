@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  Dca</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdn.socket.io/socket.io-1.3.4.js"></script>
+
+<div id="sidebar">
+  <div id="connectInfo">
+  <div>
+    nickname:
+    <input type="text" id="nickname" value="我沒臉見人" />
+  </div>
+  <div>
+    Server: 
+    <input type="text" id="serverip" value="http://demo-project-dca35311.c9.io/" />
+  </div>
+  <div>
+    <input type="button" id="btnConnect" value="連線" />
+    <input type="button" id="btnClearDebug" value="清除訊息" />
+  </div>
+</div>
+  <div id="debug"></div>
+</div>
+
+<div id="main">
+  <ul id="usersList"></ul>
+  <div id="messages"></div>
+  <div>
+    <select name="sendto" id="sendto">
+      <option value="all">All</option>
+    </select>
+    對所有人說: <input type="text" id="message" />
+    <input type="button" id="btnSay" value="送出" />
+  </div>
+
+</div>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
