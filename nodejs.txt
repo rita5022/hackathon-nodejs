@@ -1,0 +1,15 @@
+sever範例：
+http://codepen.io/dca/pen/ogRojj?editors=001
+
+開發環境：
+localhost
+c9.io
+koding.com
+
+專案開始方式：
+create folder
+npm init
+npm install socket.io -save
+
+hello world：
+vim server.js
